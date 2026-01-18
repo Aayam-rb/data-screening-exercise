@@ -43,11 +43,11 @@ python ice_detention_analysis.py
 
 ### **Methodology**
 
-Data Cleaning: Removed extra headers, fixed misformed dates, handled missing values, and removed special characters from string columns.
+Data Cleaning: Fixed misformed dates, handled missing values, and removed special characters from string columns.
 
 Data Analysis: Summed Level A-D populations to calculate Total Population and identified the top 10 largest facilities.
 
-Visualization: Created a bar chart of the top 10 facilities using Matplotlib/Seaborn.
+Visualization: Created a bar chart of the top 10 facilities using Matplotlib.
 
 ### **AI / LLM Usage**
 
@@ -87,6 +87,28 @@ Prompt:
 Usage: ChatGPT’s suggestions were adapted to generate line_chart.png with inverted y-axis, labels, and title for easy interpretation.
 
 No other AI tools were used.
+
+6. Documenting the entire process and writing a presentable Readme.md
+
+Prompt:
+"I want you to create a professional, complete README.md for my GitHub repository. 
+Here are the details of my project:
+
+1. **Project Name:** Data Screening Exercise
+2. **Project Description:** Clean, analyze, and visualize immigration detention data from a messy CSV file to find the top 10 largest detention facilities.
+3. **Files in the repository:** 
+   - ice_detention_analysis.ipynb (analysis notebook)
+   - Cleaned_ice_detention.csv (cleaned dataset)
+   - line_chart.png (visualization)
+   - messy_ice_detention.csv (original dataset)
+   - README.md (this file)
+4. **How to run the project:** (Python version, required packages, and instructions to run notebook or script)
+5. **Methodology:** - (data cleaning: fixed misformed dates, handled missing values, and removed special characters from string columns, data Analysis: Summed Level A-D populations to calculate Total Population and identified the top 10 largest facilities, visualization: Created a bar chart of the top 10 facilities using Matplotlib)
+6. **AI / LLM Usage:** ChatGPT was used for (list all areas: loading CSV, handling Excel-style dates, cleaning strings, handling missing values, filling missing Name/City/State, creating visualization, writing README)
+7. **References:** (ChatGPT)
+
+Generate the README.md in markdown format, ready to copy-paste into my repository.
+"
 
 ### **Reference:**
 
