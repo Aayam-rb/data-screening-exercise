@@ -39,6 +39,8 @@ or, if using script
 python ice_detention_analysis.py
 4. The output visualization (line_chart.png) will be generated automatically.
 
+--
+
 ### **Methodology**
 
 Data Cleaning: Fixed misformed dates, handled missing values, and removed special characters from string columns.
@@ -46,6 +48,8 @@ Data Cleaning: Fixed misformed dates, handled missing values, and removed specia
 Data Analysis: Summed Level A-D populations to calculate Total Population and identified the top 10 largest facilities.
 
 Visualization: Created a bar chart of the top 10 facilities using Matplotlib.
+
+--
 
 ### **AI / LLM Usage**
 
@@ -84,8 +88,6 @@ Prompt:
 
 Usage: ChatGPT’s suggestions were adapted to generate line_chart.png with inverted y-axis, labels, and title for easy interpretation.
 
-No other AI tools were used.
-
 6. Documenting the entire process and writing a presentable Readme.md
 
 Prompt:
@@ -107,6 +109,10 @@ Here are the details of my project:
 
 Generate the README.md in markdown format, ready to copy-paste into my repository.
 "
+
+No other AI tools were used. 
+
+--
 
 ### **Reference:**
 
