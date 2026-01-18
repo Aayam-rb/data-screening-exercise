@@ -1,5 +1,3 @@
-# data-screening-exercise
-
 # Data Screening Exercise
 
 This repository contains the completed Data Screening Exercise for Relevant Research. The exercise involves cleaning, analyzing, and visualizing immigration detention data in the United States.
