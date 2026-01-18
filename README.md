@@ -39,7 +39,7 @@ or, if using script
 python ice_detention_analysis.py
 4. The output visualization (line_chart.png) will be generated automatically.
 
---
+---
 
 ### **Methodology**
 
@@ -49,7 +49,7 @@ Data Analysis: Summed Level A-D populations to calculate Total Population and id
 
 Visualization: Created a bar chart of the top 10 facilities using Matplotlib.
 
---
+---
 
 ### **AI / LLM Usage**
 
@@ -112,7 +112,7 @@ Generate the README.md in markdown format, ready to copy-paste into my repositor
 
 No other AI tools were used. 
 
---
+---
 
 ### **Reference:**
 
